@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    
+    <form action="" method="get">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="50"><br>
+    <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" maxlength="50">
+    
+    <p>Sexo
+    <input type="radio" id="hombre" name="sexo" value="hombre"><label for="hombre">Hombre</label>
+    
+    <input type="radio" id="mujer" name="sexo" value="mujer">  <label for="mujer">Mujer</label>
+   
+    </p>
+    
+    
+    <label for="correo">Correo</label>
+    <input type="text" id="correo" name="correo">
+    <br>
+    <br>
+    <label for="Poblacion">Población:</label>
+    <select name="Poblacion" id="Poblacion">
+        <option value="alicante">Alicante</option>
+        <option value="madrid">Madrid</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="valencia">Valencia</option>
+    </select>
+    <br>
+    <br>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
+    <br>
+    <br>
+    <input type="checkbox" id="recibir" name="recibir" value="Bike" checked>
+    <label for="recibir"> Deseo recibir información sobre novedades y ofertas</label><br>
+    <br>
+    <input type="checkbox" id="Declaro" name="Declaro" value="Car">
+    <label for="Declaro"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+    <br>
+    <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
