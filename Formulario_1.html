@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend>Datos fiscales</legend>
+    
+        <input type="radio" id="paro" name="situacion" value="paro">  
+        <label for="paro">En paro</label>
+        <br>
+
+        <input type="radio" id="autonomo" name="situacion" value="autonomo">  
+        <label for="autonomo">Autónomo</label>
+        <br>
+
+        <input type="radio" id="ajena" name="situacion" value="ajena">  
+        <label for="ajena">Por c. ajena</label>
+        <br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" maxlength="50">
+        <br>
+        <label for="sueldo">Sueldo</label>
+        <select name="sueldo" id="sueldo">
+            <option>Más de 400 euros</option>
+            <option>Menos de 400 euros</option>
+            <option>Variable</option>
+        </select>
+        <br>
+         <input type="checkbox" id="enfermedad" name="situacion" value="enfermedad">  
+        <label for="enfermedad">Con enfermedad profesional</label>
+        <br>
+
+        <input type="checkbox" id="cargo" name="situacion" value="cargo">  
+        <label for="cargo">Con padres a cargo</label>
+        <br>
+
+        <input type="checkbox" id="hijos" name="situacion" value="hijos">  
+        <label for="hijos">Con hijos a cargo</label>
+        <br>
+
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Laboral</legend>
+            <input type="checkbox" id="cuenta" name="situacion" value="cuenta">  
+            <label for="cuenta">Por cuenta ajena</label>
+
+            <input type="checkbox" id="autonomo" name="situacion" value="autonomo">  
+            <label for="autonomo">Autónomo</label>
+            <br>
+            <br/>¿Alguna vez en el extranjero?<br/>
+            <input type="radio" id="si" name="extranjero" value="si">
+            <label for="si">Sí</label>
+
+            <select name="lugar">
+            <option>Dentro de la UE</option>
+            <option>Fuera de la UE</option>
+            </select>´
+            <br>
+            <input type="radio" id="no" name="extranjero" value="no">
+            <label for="no">No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Personal</legend>
+            <label for="nombre">Apellido y Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50">
+            
+            <br/>Conocimientos sobre<br/>
+            <select multiple>
+                <option >Informatica</option>
+                <option >Conducción</option>
+                <option >Finanzas</option>
+                <option >Leyes</option>
+            </select>
+
+        </fieldset>
+    </form>
+</body>
+</html>
